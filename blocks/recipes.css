@@ -1,6 +1,6 @@
 .recipes {
   background-color: #0a2750;
-  background-image: url("../images/se_project_2_files/background_recipes.svg");
+  background-image: url("../images/background_recipes.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -33,7 +33,7 @@
 }
 
 .recipes__video {
-  width: 480px;
+  /* width: 480px; removed as suggested */
 }
 
 .recipes__iframe {
@@ -46,6 +46,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: 24px;
+  margin-bottom: 0; /* Added to reset default bottom margin */
   font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 20px;

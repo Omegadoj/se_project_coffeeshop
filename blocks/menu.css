@@ -1,13 +1,13 @@
 .menu {
   background-color: #fff;
-  background-image: url("../images/se_project_2_files/background_menu.svg");
-  background-repeat: no-repeat;
+  background-image: url("../images/background_menu.svg");
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 100px 0;
 }
 
 .menu__title {
@@ -15,7 +15,6 @@
   margin-bottom: 24px;
   text-align: center;
   font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -26,8 +25,6 @@
   margin-bottom: 100px;
   text-align: center;
   font-family: "Noto Serif", "Times New Roman", serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 20px;
   line-height: 30px;
 }
@@ -37,6 +34,7 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 100px;
+  width: 100%;
   max-width: 1300px;
 }
 
@@ -46,9 +44,8 @@
 }
 
 .card__title {
-  margin-bottom: 32px;
+  margin: 0 0 32px;
   font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
@@ -64,15 +61,16 @@
   display: flex;
   margin-bottom: 16px;
   font-family: "Noto Serif", "Times New Roman", serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  color: #000000; /* primary font color */
+}
+
+.card__list-item:last-of-type {
+  margin-bottom: 0;
 }
 
 .card__list-divider {
   flex-grow: 1;
-  border-bottom: 1px solid #000000; /* primary font color */
-  margin: 0 10px;
+  border-bottom: 1px solid black;
+  margin: 0 5px;
 }
