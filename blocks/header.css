@@ -22,6 +22,7 @@
 }
 
 .header__span-accent {
+  display: block; /* Added this line to make the span take up the whole row */
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   color: #2f80ed;

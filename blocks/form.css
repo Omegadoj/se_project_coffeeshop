@@ -1,4 +1,5 @@
 .form {
+  max-width: 385px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,11 +18,20 @@
   margin-bottom: 32px;
 }
 
+.form__label-caption {
+  margin-bottom: 8px;
+}
+
 .form__label_type_checkbox {
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 12px;
+  margin-bottom: 0;
+}
+
+/* Remove bottom margin from the last label in the fieldset */
+.form__fieldset .form__label:last-child {
   margin-bottom: 0;
 }
 
@@ -63,12 +73,10 @@
   width: 20px;
   height: 20px;
   border-radius: 2px;
+  margin: 0;
 }
 
-.form__label-caption {
-  margin-bottom: 8px;
-  font-family: Inter, Arial, sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
+/* Ensure the label text for checkbox doesn't have a bottom margin */
+.form__label_type_checkbox .form__label-caption {
+  margin-bottom: 0;
 }

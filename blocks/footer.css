@@ -73,19 +73,6 @@
   margin: 0;
 }
 
-/* Additional spacing adjustments */
-.footer__content {
-  margin-bottom: 108px;
-}
-
-.footer__column {
-  margin-left: auto;
-}
-
-.footer__list-item:last-child {
-  margin-bottom: 0;
-}
-
 .footer__social-link:hover {
   opacity: 0.7;
 }

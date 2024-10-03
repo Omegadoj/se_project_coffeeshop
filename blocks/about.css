@@ -17,8 +17,8 @@
   line-height: 52px;
   z-index: 2;
   max-width: 251px;
-  top: 100px;
-  left: 80px;
+  /* Removed top: 100px; */
+  /* Removed left: 80px; */
 }
 
 .about__content {
@@ -30,6 +30,8 @@
 .about__paragraph {
   margin: 0 0 20px;
   font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 20px; /* Added font-size from the brief */
+  line-height: 30px; /* Added line-height from the brief */
 }
 
 .about__paragraph:last-child {
