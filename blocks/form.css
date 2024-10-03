@@ -30,11 +30,6 @@
   margin-bottom: 0;
 }
 
-/* Remove bottom margin from the last label in the fieldset */
-.form__fieldset .form__label:last-child {
-  margin-bottom: 0;
-}
-
 .form__input {
   height: 60px;
   border-radius: 4px;
